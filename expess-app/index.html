@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>DocuSeal React Express App</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="importmap">
+      {
+        "imports": {
+          "@docuseal/react": "https://unpkg.com/@docuseal/react@1.0.0/dist/index.esm.js",
+          "react": "https://cdn.skypack.dev/react@17.0.1",
+          "react-dom": "https://cdn.skypack.dev/react-dom"
+        }
+      }
+    </script>
+    <script type="module">
+      import { useEffect, useState, createElement } from 'react'
+      import * as ReactDOM from 'react-dom'
+      import { DocusealBuilder } from '@docuseal/react'
+
+      const App = () => {
+        const [token, setToken] = useState();
+
+        useEffect(() => {
+          fetch('/api/docuseal/builder_token', {
+            method: 'POST'
+          }).then(async (resp) => {
+           const data = await resp.json()
+
+            setToken(data.token)
+          })
+        }, []);
+
+        return token
+          ? createElement(DocusealBuilder, {token: token })
+          : createElement('div')
+      }
+
+      ReactDOM.render(createElement(App), document.getElementById('root'));
+    </script>
+  </body>
+</html>
