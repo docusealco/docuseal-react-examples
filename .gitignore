@@ -8,3 +8,5 @@
 /*/out/
 /*/build
 /*/.env*.local
+/*/.expo/
+/*/web-build/
