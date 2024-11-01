@@ -14,7 +14,7 @@ export default function SignForm(formProps) {
             <script type="importmap">
               {
                 "imports": {
-                "@docuseal/react": "https://unpkg.com/@docuseal/react@1.0.1/dist/index.esm.js",
+                "@docuseal/react": "https://unpkg.com/@docuseal/react@1.0.46/dist/index.esm.js",
                 "react": "https://cdn.skypack.dev/react@17.0.1",
                 "react-dom": "https://cdn.skypack.dev/react-dom"
                 }

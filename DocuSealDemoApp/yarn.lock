@@ -1163,10 +1163,10 @@
     "@babel/helper-validator-identifier" "^7.22.19"
     to-fast-properties "^2.0.0"
 
-"@docuseal/react@^1.0.2":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@docuseal/react/-/react-1.0.2.tgz#fb6429c32f63bf1922fafdd7aa30891e3f978450"
-  integrity sha512-boqNszxQ7g2HqpAG3RXKDJCqJguDRlDVzbjASUqDRxeSle99RP1h6RvGD2GZv7EW0j/FItgo5n8tHoe5O+UAog==
+"@docuseal/react@^1.0.46":
+  version "1.0.46"
+  resolved "https://registry.yarnpkg.com/@docuseal/react/-/react-1.0.46.tgz#d1785c31c636ff63bf91c6d97175541a4bd06061"
+  integrity sha512-Jk0zkiqB8PTFdM3EnRoE3qTkWbiS/0VNJSWXNwnxf8qLTYszNp5JpgxWkO61CGVj9tSjlP7MfkYYo+wQCNtukA==
 
 "@expo/bunyan@4.0.0", "@expo/bunyan@^4.0.0":
   version "4.0.0"

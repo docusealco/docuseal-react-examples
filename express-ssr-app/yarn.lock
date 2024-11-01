@@ -1007,10 +1007,10 @@
   resolved "https://registry.yarnpkg.com/@discoveryjs/json-ext/-/json-ext-0.5.7.tgz#1d572bfbbe14b7704e0ba0f39b74815b84870d70"
   integrity sha512-dBVuXR082gk3jsFp7Rd/JI4kytwGHecnCoTtXFb7DB6CNHp4rg5k1bhg0nWdLGLnOV71lmDzGQaLMy8iPLY0pw==
 
-"@docuseal/react@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@docuseal/react/-/react-1.0.0.tgz#41ece7a1ae48d627534c4eecccf9da6679628b35"
-  integrity sha512-fbEiJwqZigLZjwtoEy2PLWBnknOlrBek/QYj10+XVWjEZrnwTqtUOScDlWr/oMkxhG7ThO2Sydd5ith2mV00vQ==
+"@docuseal/react@^1.0.46":
+  version "1.0.46"
+  resolved "https://registry.yarnpkg.com/@docuseal/react/-/react-1.0.46.tgz#d1785c31c636ff63bf91c6d97175541a4bd06061"
+  integrity sha512-Jk0zkiqB8PTFdM3EnRoE3qTkWbiS/0VNJSWXNwnxf8qLTYszNp5JpgxWkO61CGVj9tSjlP7MfkYYo+wQCNtukA==
 
 "@jridgewell/gen-mapping@^0.3.0", "@jridgewell/gen-mapping@^0.3.2":
   version "0.3.3"
