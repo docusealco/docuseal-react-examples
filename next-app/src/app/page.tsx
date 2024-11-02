@@ -19,7 +19,7 @@ export default function Home() {
       <div style={{ width: '50%', textAlign: 'center' }}>
         <h1>Docuseal Form</h1>
         <DocusealForm
-          src="https://docuseal.co/d/LEVGR9rhZYf86M"
+          src="https://docuseal.com/d/LEVGR9rhZYf86M"
           email="signer@example.com"
         />
       </div>

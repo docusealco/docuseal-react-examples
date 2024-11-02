@@ -1,6 +1,6 @@
 ## Getting Started
 
-Copy DocuSeal API token from [https://console.docuseal.co/embedding/builder](https://console.docuseal.co/embedding/builder) and add into the .env file:
+Copy DocuSeal API token from [https://console.docuseal.com/embedding/builder](https://console.docuseal.com/embedding/builder) and add into the .env file:
 
 ```bush
 cat .env

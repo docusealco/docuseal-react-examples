@@ -5,7 +5,7 @@ import SignForm from './components/SignForm';
 export default function App() {
   return (
     <View style={styles.container}>
-      <SignForm src="https://docuseal.co/d/LEVGR9rhZYf86M" />
+      <SignForm src="https://docuseal.com/d/LEVGR9rhZYf86M" />
       <StatusBar style="auto" />
     </View>
   );
